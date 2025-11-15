@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link to="/" className="flex items-center gap-2 text-xl font-bold text-primary">
           <BookOpen className="h-6 w-6" />
-          <span>BookHaven</span>
+          <span>BookHeaven</span>
         </Link>
 
         <div className="hidden items-center gap-6 md:flex">

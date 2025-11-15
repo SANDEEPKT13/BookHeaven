@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 text-lg font-bold text-primary mb-4">
               <BookOpen className="h-5 w-5" />
-              <span>BookHaven</span>
+              <span>BookHeaven</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Your destination for discovering and purchasing the best books online.
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 border-t pt-6 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} BookHaven. All rights reserved.
+          © {new Date().getFullYear()} BookHeaven. All rights reserved.
         </div>
       </div>
     </footer>

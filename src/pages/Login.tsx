@@ -25,7 +25,7 @@ const Login = () => {
           </div>
           <div>
             <CardTitle className="text-2xl">Welcome Back</CardTitle>
-            <CardDescription>Sign in to your BookHaven account</CardDescription>
+            <CardDescription>Sign in to your BookHeaven account</CardDescription>
           </div>
         </CardHeader>
         <CardContent>

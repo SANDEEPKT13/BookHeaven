@@ -21,7 +21,7 @@ const Home = () => {
           </h1>
           <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">
             Explore thousands of books across all genres. From bestsellers to hidden gems,
-            find your perfect book at BookHaven.
+            find your perfect book at BookHeaven.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link to="/books">

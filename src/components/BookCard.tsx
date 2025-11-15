@@ -16,11 +16,11 @@ const BookCard = ({ book }: BookCardProps) => {
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
     addToCart(book);
-    toast.success(`"${book.title}" added to cart!`);
+    toast.success(`"₹{book.title}" added to cart!`);
   };
 
   return (
-    <Link to={`/books/${book.id}`}>
+    <Link to={`/books/₹{book.id}`}>
       <Card className="group h-full overflow-hidden transition-all hover:shadow-lg hover:border-primary/50">
         <div className="aspect-[2/3] overflow-hidden bg-muted">
           <img
@@ -41,7 +41,7 @@ const BookCard = ({ book }: BookCardProps) => {
             <Star className="h-4 w-4 fill-accent text-accent" />
             <span className="text-sm font-medium">{book.rating}</span>
           </div>
-          <p className="text-lg font-bold text-primary">${book.price.toFixed(2)}</p>
+          <p className="text-lg font-bold text-primary">₹{book.price.toFixed(2)}</p>
         </CardContent>
         <CardFooter className="p-4 pt-0">
           <Button

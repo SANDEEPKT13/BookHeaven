@@ -16,7 +16,7 @@ const BookDetailsCard = ({ book }: BookDetailsCardProps) => {
 
   const handleAddToCart = () => {
     addToCart(book, quantity);
-    toast.success(`${quantity} ${quantity === 1 ? 'copy' : 'copies'} of "${book.title}" added to cart!`);
+    toast.success(`${quantity} ${quantity === 1 ? 'copy' : 'copies'} of "₹{book.title}" added to cart!`);
   };
 
   return (
@@ -56,7 +56,7 @@ const BookDetailsCard = ({ book }: BookDetailsCardProps) => {
               </div>
 
               <div className="text-3xl font-bold text-primary mb-6">
-                ${book.price.toFixed(2)}
+                ₹{book.price.toFixed(2)}
               </div>
             </div>
 

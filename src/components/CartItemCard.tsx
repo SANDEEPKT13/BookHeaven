@@ -54,7 +54,7 @@ const CartItemCard = ({ item }: CartItemCardProps) => {
 
               <div className="flex items-center gap-4">
                 <span className="font-bold text-primary">
-                  ${(item.book.price * item.quantity).toFixed(2)}
+                  ₹{(item.book.price * item.quantity).toFixed(2)}
                 </span>
                 <Button
                   variant="ghost"
